@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="/jquery-3.6.0.js"></script>
+    <style>
+        div{
+            border: 10px dotted blue;
+            padding:20px;
+            margin: auto;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>底下是清單</p>
+        <li>list1</li>
+        <li>list2</li>
+        <li>list3</li>
+        <li>list4</li>
+        <li>list5</li>
+    </div>
+    <script>
+        var h = $('div').innerHeight();
+        var w = $('div').innerWidth();
+        var h1 = $('div').outerHeight();
+        var h2 = $('div').outerHeight(true);
+
+        console.log(h);
+        console.log(h1);
+        console.log(h2);
+        // console.log(w);
+        $('p').hover(function(){
+            $(this).toggle("fast");
+        });
+
+    </script>
+</body>
+</html>

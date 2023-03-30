@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>heart</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .heart{
+            font-size: 100px;
+            animation-name: action;
+            animation-duration: 0.2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes action{
+            from{
+                transform: scale(0.7);
+            }to{
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class ="heart">❤️</div>
+</body>
+</html>

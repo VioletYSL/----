@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="ex.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href=""><img src="./img/logo3.png" alt="公司LOGO"></a>
+
+        </div>
+        <form action="">
+            <div class="search_in">
+                <input id="search_input" type="text" placeholder="搜尋比價  請輸入關鍵字">
+                <!-- <img id="zoom_in_item" src="img/zoomin2.png" onclick=""> -->
+                <button id="search_btn"></button>
+            </div>
+
+        </form>
+
+        <div class="user">
+            <div class="my_favorite">
+                <h3>我的最愛</h3>
+
+            </div>
+            <button id="member_btn" onclick="">
+                <div class="member_item">
+                    <img id="member_img" src="img/member_img.jpeg">
+                    <span>XXX</span>
+                </div>
+            </button>
+        </div>
+    </header>
+    <div class="row">
+        <div class="column side">
+            <h2>商品分類</h2>
+            <ul>
+                <li>鞋子</li>
+                <li>3C用品</li>
+                <li>服飾</li>
+                <li>家電</li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="column middle">
+        <div class="MyFavorite">
+            <h1>我的最愛</h1>
+        </div>
+        <div class="subscribe-list-view">
+            <div class="sub_item">
+                <div class="sub_item_content">
+                    <div class="item_img">
+                        <img src="img/sneaker.jfif" alt="item_img">
+                    </div>
+                    <div class="item_name">
+                        <h4>NIKE KOBE AD 12 紫羅蘭實戰籃球鞋</h4>
+                    </div>
+                    <div class="item_source">
+                        <div class="source_logo">
+                            <img src="img/NIKE logo.png" alt="logo">
+                        </div>
+                        <div class="source_name">
+                            <span>NIKE官網</span>
+                        </div>
+                    </div>
+                    <div class="item_price">
+                        <span>$:30000</span>
+                    </div>
+                    <div class="shop_url">
+                        <a href="">前往賣場</a>
+                    </div>
+                    <div class="remove">
+                        <button onclick="del_sub_item()">移除此商品</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sub_item">
+                <div class="sub_item_content">
+                    <div class="item_img">
+                        <img src="img/sneaker.jfif" alt="item_img">
+                    </div>
+                    <div class="item_name">
+                        <h4>NIKE KOBE AD 12 紫羅蘭實戰籃球鞋</h4>
+                    </div>
+                    <div class="item_source">
+                        <div class="source_logo">
+                            <img src="img/NIKE logo.png" alt="logo">
+                        </div>
+                        <div class="source_name">
+                            <span>NIKE官網</span>
+                        </div>
+                    </div>
+                    <div class="item_price">
+                        <span>$:30000</span>
+                    </div>
+                    <div class="shop_url">
+                        <a href="">前往賣場</a>
+                    </div>
+                    <div class="remove">
+                        <button onclick="del_sub_item()">移除此商品</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sub_item">
+                <div class="sub_item_content">
+                    <div class="item_img">
+                        <img src="img/sneaker.jfif" alt="item_img">
+                    </div>
+                    <div class="item_name">
+                        <h4>NIKE KOBE AD 12 紫羅蘭實戰籃球鞋</h4>
+                    </div>
+                    <div class="item_source">
+                        <div class="source_logo">
+                            <img src="img/NIKE logo.png" alt="logo">
+                        </div>
+                        <div class="source_name">
+                            <span>NIKE官網</span>
+                        </div>
+                    </div>
+                    <div class="item_price">
+                        <span>$:30000</span>
+                    </div>
+                    <div class="shop_url">
+                        <a href="">前往賣場</a>
+                    </div>
+                    <div class="remove">
+                        <button onclick="del_sub_item()">移除此商品</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sub_item">
+                <div class="sub_item_content">
+                    <div class="item_img">
+                        <img src="img/sneaker.jfif" alt="item_img">
+                    </div>
+                    <div class="item_name">
+                        <h4>NIKE KOBE AD 12 紫羅蘭實戰籃球鞋</h4>
+                    </div>
+                    <div class="item_source">
+                        <div class="source_logo">
+                            <img src="img/NIKE logo.png" alt="logo">
+                        </div>
+                        <div class="source_name">
+                            <span>NIKE官網</span>
+                        </div>
+                    </div>
+                    <div class="item_price">
+                        <span>$:30000</span>
+                    </div>
+                    <div class="shop_url">
+                        <a href="">前往賣場</a>
+                    </div>
+                    <div class="remove">
+                        <button onclick="del_sub_item()">移除此商品</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="sub_item">
+                <div class="sub_item_content">
+                    <div class="item_img">
+                        <img src="img/sneaker.jfif" alt="item_img">
+                    </div>
+                    <div class="item_name">
+                        <h4>NIKE KOBE AD 12 紫羅蘭實戰籃球鞋</h4>
+                    </div>
+                    <div class="item_source">
+                        <div class="source_logo">
+                            <img src="img/NIKE logo.png" alt="logo">
+                        </div>
+                        <div class="source_name">
+                            <span>NIKE官網</span>
+                        </div>
+                    </div>
+                    <div class="item_price">
+                        <span>$:30000</span>
+                    </div>
+                    <div class="shop_url">
+                        <a href="">前往賣場</a>
+                    </div>
+                    <div class="remove">
+                        <button onclick="del_sub_item()">移除此商品</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sub_item">
+                <div class="sub_item_content">
+                    <div class="item_img">
+                        <img src="img/sneaker.jfif" alt="item_img">
+                    </div>
+                    <div class="item_name">
+                        <h4>NIKE KOBE AD 12 紫羅蘭實戰籃球鞋</h4>
+                    </div>
+                    <div class="item_source">
+                        <div class="source_logo">
+                            <img src="img/NIKE logo.png" alt="logo">
+                        </div>
+                        <div class="source_name">
+                            <span>NIKE官網</span>
+                        </div>
+                    </div>
+                    <div class="item_price">
+                        <span>$:30000</span>
+                    </div>
+                    <div class="shop_url">
+                        <a href="">前往賣場</a>
+                    </div>
+                    <div class="remove">
+                        <button onclick="del_sub_item()">移除此商品</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sub_item">
+                <div class="sub_item_content">
+                    <div class="item_img">
+                        <img src="img/sneaker.jfif" alt="item_img">
+                    </div>
+                    <div class="item_name">
+                        <h4>NIKE KOBE AD 12 紫羅蘭實戰籃球鞋</h4>
+                    </div>
+                    <div class="item_source">
+                        <div class="source_logo">
+                            <img src="img/NIKE logo.png" alt="logo">
+                        </div>
+                        <div class="source_name">
+                            <span>NIKE官網</span>
+                        </div>
+                    </div>
+                    <div class="item_price">
+                        <span>$:30000</span>
+                    </div>
+                    <div class="shop_url">
+                        <a href="">前往賣場</a>
+                    </div>
+                    <div class="remove">
+                        <button onclick="del_sub_item()">移除此商品</button>
+                    </div>
+                </div>
+            </div>
+            <div class="sub_item">
+                <div class="sub_item_content">
+                    <div class="item_img">
+                        <img src="img/sneaker.jfif" alt="item_img">
+                    </div>
+                    <div class="item_name">
+                        <h4>NIKE KOBE AD 12 紫羅蘭實戰籃球鞋</h4>
+                    </div>
+                    <div class="item_source">
+                        <div class="source_logo">
+                            <img src="img/NIKE logo.png" alt="logo">
+                        </div>
+                        <div class="source_name">
+                            <span>NIKE官網</span>
+                        </div>
+                    </div>
+                    <div class="item_price">
+                        <span>$:30000</span>
+                    </div>
+                    <div class="shop_url">
+                        <a href="">前往賣場</a>
+                    </div>
+                    <div class="remove">
+                        <button onclick="del_sub_item()">移除此商品</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function del_sub_item() {
+            const subItem = document.querySelector('.sub_item');
+            console.log(subItem);
+            
+            // 取得所有子元素
+            const children = subItem.childNodes;
+
+            // 迭代所有子元素，從 DOM 中移除它們
+            children.forEach((child) => {
+                subItem.removeChild(child);
+            });
+
+        }
+    </script>
+
+
+</body>
+
+</html>
